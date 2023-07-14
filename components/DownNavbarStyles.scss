@@ -1,0 +1,44 @@
+.downnavbar{
+    display: inline-block;
+    position: fixed;
+    background-color: white;
+    bottom:0px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    height: auto;
+    visibility: hidden;
+    .link{
+        text-decoration: none;
+        color: black;
+        i{
+            font-size: 1.1rem;
+            margin:10px;
+            border-radius: 50%;
+            &:hover{
+                color: rgb(208, 25, 25);
+            }
+        }
+    }
+    }
+
+@media screen and (max-width:549px){
+    .downnavbar{
+    visibility: visible;
+    position: fixed;
+    background-color: white;
+    bottom:0px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    height: auto;
+    i{
+        font-size: 1.2rem;
+        margin-top:20px;
+        border-radius: 50%;
+        &:hover{
+            color: rgb(208, 25, 25);
+        }
+    }
+    }
+}

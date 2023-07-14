@@ -1,0 +1,169 @@
+.mens-main {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 10%;
+}
+.mens-main .mens-page {
+  width: 100%;
+  height: auto;
+}
+.mens-main .mens-page .top-head {
+  width: 100%;
+  height: 70vh;
+}
+.mens-main .mens-page .top-head .image {
+  width: 45%;
+  height: 100%;
+}
+.mens-main .mens-page .top-head .image img {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+.mens-main .mens-page .top-head .content {
+  width: 55%;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 15px;
+  background: linear-gradient(225deg, #d3b6b6, #e8bd80, #8da26d, #abe4ff, #ffffff, #bd97bd);
+  -webkit-animation: Rainbow 10s ease infinite;
+  -moz-animation: Rainbow 10s ease infinite;
+  animation: Rainbow 10s ease infinite;
+}
+@keyframes Rainbow {
+  0% {
+    background-position: 94% 0%;
+  }
+  50% {
+    background-position: 7% 100%;
+  }
+  100% {
+    background-position: 94% 0%;
+  }
+}
+.mens-main .mens-page .top-head .content p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.mens-main .mens-page .top-head .content h3 {
+  margin: 2rem;
+  margin-top: 0;
+  font-size: 2.6rem;
+  color: rgb(201, 73, 30);
+}
+.mens-main .mens-page .top-head .content img {
+  width: 500px;
+  height: 400px;
+}
+.mens-main .mens-page .offers-block {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(250deg, #e97c7c, #9596d9, #d384a6, #99dab3, #7476dc, #73abd9);
+  -webkit-animation: Rainbow 10s ease infinite;
+  -moz-animation: Rainbow 10s ease infinite;
+  animation: Rainbow 10s ease infinite;
+}
+@keyframes Rainbow {
+  0% {
+    background-position: 94% 0%;
+  }
+  50% {
+    background-position: 7% 100%;
+  }
+  100% {
+    background-position: 94% 0%;
+  }
+}
+.mens-main .mens-page .offers-block .offer-block {
+  width: 96%;
+  height: 100%;
+  border: 1px solid red;
+  box-shadow: 1px 1px 15px rgb(221, 94, 94);
+  padding: 1rem;
+  margin: 2rem 0rem;
+  border-radius: 5rem;
+  background-color: rgba(228, 223, 223, 0.3);
+}
+.mens-main .mens-page .offers-block .offer-block .images {
+  width: 100%;
+  height: 70px;
+  overflow: hidden;
+}
+.mens-main .mens-page .offers-block .offer-block .images img {
+  mix-blend-mode: multiply;
+  width: 120px;
+  height: 60px;
+  margin: 8px;
+}
+.mens-main .mens-page .offers-block .offer-block .offer-content h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  color: #25278d;
+}
+.mens-main .mens-page .offers-block .offer-block .offer-content p {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: red;
+}
+
+@media screen and (max-width: 550px) {
+  .mens-main .mens-page .top-head {
+    height: 25vh;
+  }
+  .mens-main .mens-page .top-head .image {
+    width: 45%;
+  }
+  .mens-main .mens-page .top-head .content {
+    width: 55%;
+  }
+  .mens-main .mens-page .top-head .content p {
+    font-size: 0.6rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  .mens-main .mens-page .top-head .content h3 {
+    margin: 0rem;
+    margin-top: 0;
+    font-size: 0.8rem;
+  }
+  .mens-main .mens-page .top-head .content img {
+    margin-top: 1rem;
+    width: 150px;
+    height: 160px;
+  }
+  .mens-main .mens-page .offers-block {
+    width: 100%;
+  }
+  .mens-main .mens-page .offers-block .offer-block {
+    width: 98%;
+    padding: 0.5rem;
+    margin: 0.3rem 0rem;
+    border-radius: 0.1rem;
+  }
+  .mens-main .mens-page .offers-block .offer-block .images {
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  .mens-main .mens-page .offers-block .offer-block .images img {
+    mix-blend-mode: multiply;
+    width: 30px;
+    height: 20px;
+    margin: 2.5px;
+  }
+  .mens-main .mens-page .offers-block .offer-block .offer-content h1 {
+    font-size: 0.7rem;
+    word-spacing: 1px;
+    margin: 0;
+  }
+  .mens-main .mens-page .offers-block .offer-block .offer-content p {
+    font-size: 0.6rem;
+    text-transform: capitalize;
+    color: red;
+    margin: 0;
+  }
+}/*# sourceMappingURL=MensStyles.css.map */

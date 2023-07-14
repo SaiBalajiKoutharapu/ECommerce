@@ -1,0 +1,152 @@
+.cards-main {
+  width: 100%;
+  height: auto;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(250deg, #e473f1, #bbec76, #dfb269, #276478, #74e66b, #e170a3, #ea6262, #9596d9, #d384a6, #50db88, #7476dc, #73abd9);
+  -webkit-animation: Rainbow 10s ease infinite;
+  -moz-animation: Rainbow 10s ease infinite;
+  animation: Rainbow 10s ease infinite;
+}
+@keyframes Rainbow {
+  0% {
+    background-position: 94% 0%;
+  }
+  50% {
+    background-position: 7% 100%;
+  }
+  100% {
+    background-position: 94% 0%;
+  }
+}
+.cards-main h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: 550;
+  color: rgb(11, 11, 111);
+}
+.cards-main .cards {
+  width: 95%;
+  margin-top: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+.cards-main .cards .links {
+  width: 23%;
+  height: 100%;
+  text-decoration: none;
+  overflow: hidden;
+}
+.cards-main .cards .links .card {
+  width: 100%;
+  height: 450px;
+  box-shadow: 2px 2px 12px rgb(153, 149, 149);
+  border: none;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.cards-main .cards .links .card img {
+  width: 100%;
+  height: 330px;
+}
+.cards-main .cards .links .card i {
+  font-size: 1.2rem;
+  color: red;
+  position: absolute;
+  right: 4%;
+  font-weight: 100;
+  top: 2.5%;
+}
+.cards-main .cards .links .content {
+  background-color: white;
+}
+.cards-main .cards .links .content h2 {
+  font-size: 0.9rem;
+  color: rgb(15, 15, 156);
+}
+.cards-main .cards .links .content h4 {
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 400;
+}
+.cards-main .cards .links .content h5 {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+.cards-main .cards .active {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .cards-main {
+    width: 100%;
+  }
+  .cards-main .cards {
+    width: 100%;
+    margin: 0.4rem;
+  }
+  .cards-main .cards .links {
+    width: 48.8%;
+    overflow: hidden;
+  }
+  .cards-main .cards .links .card {
+    width: 100%;
+    height: 248px;
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 0.4rem;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  .cards-main .cards .links .card img {
+    width: 100%;
+    height: 170px;
+  }
+  .cards-main .cards .links .card p {
+    font-size: 0.6rem;
+    padding: 1px;
+    width: 20%;
+  }
+  .cards-main .cards .links .card i {
+    font-size: 0.7rem;
+    color: red;
+    position: absolute;
+    right: 4%;
+    font-weight: 100;
+    top: 2.5%;
+  }
+  .cards-main .cards .links .card .bag {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+  }
+  .cards-main .cards .links .card .addtocart {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .cards-main .cards .links .card .addtocart button {
+    font-size: 0.6rem;
+    padding: 3px;
+    font-weight: 450;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: rgb(30, 30, 31);
+    color: white;
+  }
+  .cards-main .cards .links .content h2 {
+    font-size: 0.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .cards-main .cards .links .content h4 {
+    font-size: 0.6rem;
+    margin-top: 3px;
+  }
+  .cards-main .cards .links .content h5 {
+    font-size: 0.5rem;
+    color: green;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=CardsStyles.css.map */

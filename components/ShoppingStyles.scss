@@ -1,0 +1,98 @@
+.shopping{
+    position: absolute;
+    top:10.5%;
+    background: linear-gradient(250deg, #ecb9cf,#a5debc, #85aac9);
+    -webkit-animation: Rainbow 10s ease infinite;
+    -moz-animation: Rainbow 10s ease infinite;
+    animation: Rainbow 10s ease infinite;
+    @keyframes Rainbow {
+        0% {
+            background-position: 94% 0%; }
+        50% {
+            background-position: 7% 100%; }
+        100% {
+            background-position: 94% 0%; } 
+    };
+
+    .options{
+        width: 99%;
+        button{
+            width: 20%;
+            height: 40px;
+            font-size: .7rem;
+            padding: 3px;
+           
+            outline: none;
+            text-transform: capitalize;
+            font-weight: 500;
+            letter-spacing: .5px;
+        }
+    }
+    .matter{
+        width: 100%;
+        height: 30vh;
+        padding-top: 3px;
+        display: none;
+    }
+    .active-matter{
+        display: block;
+    }
+}
+
+@media screen and (max-width:500px){
+    .shopping{
+        position: absolute;
+        top:10.5%;
+        background: linear-gradient(250deg, #ecb9cf,#a5debc, #85aac9);
+        -webkit-animation: Rainbow 10s ease infinite;
+        -moz-animation: Rainbow 10s ease infinite;
+        animation: Rainbow 10s ease infinite;
+        @keyframes Rainbow {
+            0% {
+                background-position: 94% 0%; }
+            50% {
+                background-position: 7% 100%; }
+            100% {
+                background-position: 94% 0%; } 
+        };
+    
+        .options{
+            width: 97%;
+            .btn{
+                width: 20%;
+                height: 25px;
+                font-size: .7rem;
+                padding: 3px;
+                outline: none;
+                border-radius: 0;
+                text-transform: capitalize;
+                font-weight: 500;
+                letter-spacing: .5px;
+                border:.5px solid rgb(144, 139, 139)
+            }
+            .active{
+                width: 20%;
+                height: 25px;
+                font-size: .7rem;
+                padding: 3px;
+                border: none;
+                outline: none;
+                text-transform: capitalize;
+                font-weight: 500;
+                letter-spacing: .5px;
+                background-color: peru;
+                color: white;
+            }
+        }
+        .matter{
+            width: 100%;
+            height: 30vh;
+            padding-top: 3px;
+            display: none;
+        }
+        .active-matter{
+            display: block;
+        }
+        
+    }
+}

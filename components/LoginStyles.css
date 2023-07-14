@@ -1,0 +1,313 @@
+.login {
+  width: 28%;
+  height: 550px;
+  position: fixed;
+  top: 15%;
+  box-shadow: 2px 2px 15px rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+  color: black;
+  padding: 10px;
+  overflow: hidden;
+}
+.login h2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.login label {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.login .close {
+  position: absolute;
+  top: 1%;
+  right: 0;
+  width: 34px;
+}
+.login .close i {
+  font-size: 1.4rem;
+  padding: 4px;
+  width: 100%;
+}
+.login .login-form {
+  height: 83%;
+  width: 100%;
+}
+.login .login-form .username {
+  margin: 1rem;
+  width: 80%;
+}
+.login .login-form .username label {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 350;
+}
+.login .login-form .username i {
+  font-size: 0.7rem;
+  position: relative;
+  top: 25%;
+  left: 93%;
+  padding: 3px;
+}
+.login .login-form .username input {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  text-transform: capitalize;
+  font-size: 0.9;
+  font-weight: 450;
+  letter-spacing: 1.2px;
+}
+.login .login-form .forgot-password {
+  width: 100%;
+}
+.login .login-form .forgot-password input {
+  margin-top: 0.2rem;
+  margin-right: 1px;
+}
+.login .login-form .forgot-password p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.login .login-form .forgot-password a {
+  font-size: 0.8rem;
+  margin-left: 3rem;
+}
+.login .login-form .submit {
+  width: 100%;
+  margin-top: 1.6rem;
+}
+.login .login-form .submit button {
+  width: 81.5%;
+}
+.login .login-form .register {
+  width: 81%;
+  margin-top: 0.6rem;
+}
+.login .login-form .register a {
+  color: peru;
+}
+.login .login-form .icons i {
+  font-size: 1rem;
+  padding: 8px;
+}
+.login .login-form .icons .google {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .login {
+    width: 32%;
+    height: 520px;
+  }
+  .login h2 {
+    font-size: 1.3rem;
+  }
+  .login .close i {
+    font-size: 1.2rem;
+    padding: 4px;
+    width: 100%;
+  }
+  .login .login-form {
+    height: 83%;
+    width: 100%;
+  }
+  .login .login-form .username {
+    margin: 1rem;
+    width: 80%;
+  }
+  .login .login-form .username label {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 350;
+  }
+  .login .login-form .username i {
+    font-size: 0.7rem;
+    position: relative;
+    top: 25%;
+    left: 93%;
+    padding: 3px;
+  }
+  .login .login-form .username input {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+    text-transform: capitalize;
+    font-size: 0.9;
+    font-weight: 450;
+    letter-spacing: 1.2px;
+  }
+  .login .login-form .forgot-password {
+    width: 100%;
+  }
+  .login .login-form .forgot-password input {
+    margin-top: 0.2rem;
+    margin-right: 1px;
+  }
+  .login .login-form .forgot-password p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .login .login-form .forgot-password a {
+    font-size: 0.8rem;
+    margin-left: 3rem;
+  }
+  .login .login-form .submit {
+    width: 100%;
+    margin-top: 1.6rem;
+  }
+  .login .login-form .submit button {
+    width: 81.5%;
+  }
+  .login .login-form .register {
+    width: 81%;
+    margin-top: 0.6rem;
+  }
+  .login .login-form .register a {
+    color: peru;
+  }
+  .login .login-form .icons i {
+    font-size: 1rem;
+    padding: 8px;
+  }
+  .login .login-form .icons .google {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .login {
+    width: 39%;
+  }
+  .login h2 {
+    font-size: 1.2rem;
+  }
+  .login label {
+    font-size: 1rem;
+  }
+  .login .close i {
+    font-size: 1.2rem;
+  }
+  .login .login-form {
+    height: 83%;
+    width: 100%;
+  }
+  .login .login-form .username {
+    margin: 0.7rem;
+  }
+  .login .login-form .username label {
+    font-size: 1rem;
+  }
+  .login .login-form .forgot-password {
+    width: 100%;
+  }
+  .login .login-form .forgot-password input {
+    margin-top: 0.2rem;
+    margin-right: 1px;
+  }
+  .login .login-form .forgot-password p {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  .login .login-form .forgot-password a {
+    font-size: 0.7rem;
+    margin-left: 2.7rem;
+  }
+  .login .login-form .submit {
+    margin-top: 1.4rem;
+  }
+  .login .login-form .register {
+    width: 83%;
+    margin-top: 0.6rem;
+  }
+  .login .login-form .icons i {
+    font-size: 0.9rem;
+    padding: 8px;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 810px) {
+  .login {
+    height: 460px;
+    width: 46%;
+  }
+  .login h2 {
+    font-size: 1.1rem;
+  }
+  .login label {
+    font-size: 0.9rem;
+  }
+  .login .login-form {
+    height: 83%;
+    width: 100%;
+  }
+  .login .login-form .username {
+    margin: 0.3rem;
+  }
+  .login .login-form .username label {
+    font-size: 0.9rem;
+  }
+  .login .login-form .forgot-password {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .login .login-form .forgot-password input {
+    margin-top: 4px;
+    margin-right: 1px;
+  }
+  .login .login-form .forgot-password p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .login .login-form .forgot-password a {
+    font-size: 0.8rem;
+    margin-left: 1rem;
+  }
+  .login .login-form .submit {
+    margin-top: 1rem;
+  }
+  .login .login-form .submit button {
+    font-size: 0.8rem;
+  }
+  .login .login-form .register {
+    width: 83%;
+    margin-top: 0.6rem;
+  }
+  .login .login-form .register p {
+    font-size: 0.8rem;
+  }
+  .login .login-form .register a {
+    font-size: 0.8rem;
+  }
+  .login .login-form .icons i {
+    font-size: 0.8rem;
+    padding: 8px;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .login {
+    height: 460px;
+    width: 57%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .login {
+    height: 460px;
+    width: 72%;
+  }
+}
+@media screen and (max-width: 410px) {
+  .login {
+    height: 460px;
+    width: 83%;
+  }
+}/*# sourceMappingURL=LoginStyles.css.map */

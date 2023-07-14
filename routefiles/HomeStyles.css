@@ -1,0 +1,275 @@
+.home {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 10%;
+}
+.home h3 {
+  margin: 1.2rem;
+  border-bottom: 2px solid peru;
+  padding-bottom: 0.5rem;
+}
+.home .head, .home .mens, .home .womens, .home .mens-page {
+  width: 100%;
+  height: auto;
+  background-color: rgb(161, 126, 126);
+  position: relative;
+  top: 10%;
+}
+.home .head h1, .home .mens h1, .home .womens h1, .home .mens-page h1 {
+  color: rgb(25, 25, 25);
+  font-size: 2.2rem;
+}
+.home .head .cards, .home .mens .cards, .home .womens .cards, .home .mens-page .cards {
+  flex-wrap: wrap;
+  margin: 1.5rem 0rem;
+  width: 100%;
+}
+.home .head .cards .links, .home .mens .cards .links, .home .womens .cards .links, .home .mens-page .cards .links {
+  border-radius: 2rem;
+  width: 24%;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+.home .head .cards .links .card, .home .mens .cards .links .card, .home .womens .cards .links .card, .home .mens-page .cards .links .card {
+  width: 98%;
+  height: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 5px;
+}
+.home .head .cards .links .card .image, .home .mens .cards .links .card .image, .home .womens .cards .links .card .image, .home .mens-page .cards .links .card .image {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.home .head .cards .links .card .image img, .home .mens .cards .links .card .image img, .home .womens .cards .links .card .image img, .home .mens-page .cards .links .card .image img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+.home .head .cards .links .card .content, .home .mens .cards .links .card .content, .home .womens .cards .links .card .content, .home .mens-page .cards .links .card .content {
+  height: 30%;
+}
+.home .head .cards .links .card .content h2, .home .mens .cards .links .card .content h2, .home .womens .cards .links .card .content h2, .home .mens-page .cards .links .card .content h2 {
+  font-size: 1.2rem;
+  color: rgb(18, 18, 89);
+}
+.home .head .cards .links .card .content label, .home .mens .cards .links .card .content label, .home .womens .cards .links .card .content label, .home .mens-page .cards .links .card .content label {
+  font-size: 2rem;
+  color: rgb(212, 49, 49);
+}
+.home .head .cards .links .card:hover, .home .mens .cards .links .card:hover, .home .womens .cards .links .card:hover, .home .mens-page .cards .links .card:hover {
+  filter: brightness(92%);
+}
+.home .head .cards .links .card:hover img, .home .mens .cards .links .card:hover img, .home .womens .cards .links .card:hover img, .home .mens-page .cards .links .card:hover img {
+  transform: scale(1.07);
+  transition: 0.3s ease-in-out;
+}
+.home .logos {
+  position: relative;
+  background-color: rgb(237, 84, 84);
+  width: 100%;
+  overflow: hidden;
+}
+.home .logos img {
+  width: 80px;
+  height: 120px;
+}
+.home .logos .resize-brands {
+  width: 30%;
+}
+.home .logos .resize-brands img {
+  width: 65px;
+  height: 60px;
+}
+.home .mens {
+  background: linear-gradient(225deg, #ffabab, #ffdaab, #ddffab, #abe4ff, #d9abff);
+  -webkit-animation: Rainbow 5s ease infinite;
+  -moz-animation: Rainbow 5s ease infinite;
+  animation: Rainbow 5s ease infinite;
+}
+@keyframes Rainbow {
+  0% {
+    background-position: 94% 0%;
+  }
+  50% {
+    background-position: 7% 100%;
+  }
+  100% {
+    background-position: 94% 0%;
+  }
+}
+.home .womens {
+  background: linear-gradient(225deg, #b48383, #aaa297, #8da26d, #abe4ff, #a074c5, #d9abff);
+  -webkit-animation: Rainbow 10s ease infinite;
+  -moz-animation: Rainbow 10s ease infinite;
+  animation: Rainbow 10s ease infinite;
+}
+@keyframes Rainbow {
+  0% {
+    background-position: 94% 0%;
+  }
+  50% {
+    background-position: 7% 100%;
+  }
+  100% {
+    background-position: 94% 0%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    top: 10%;
+  }
+  .home .head, .home .mens, .home .womens {
+    padding: 0;
+  }
+  .home .head h1, .home .mens h1, .home .womens h1 {
+    font-size: 1.8rem;
+  }
+  .home .head .cards, .home .mens .cards, .home .womens .cards {
+    flex-wrap: wrap;
+  }
+  .home .head .cards .links, .home .mens .cards .links, .home .womens .cards .links {
+    width: 24.5%;
+    height: 310px;
+    margin-bottom: 0.8rem;
+  }
+  .home .head .cards .links .card .image, .home .mens .cards .links .card .image, .home .womens .cards .links .card .image {
+    height: 67%;
+  }
+  .home .head .cards .links .card .content, .home .mens .cards .links .card .content, .home .womens .cards .links .card .content {
+    height: 43%;
+  }
+  .home .head .cards .links .card .content h2, .home .mens .cards .links .card .content h2, .home .womens .cards .links .card .content h2 {
+    font-size: 1rem;
+  }
+  .home .head .cards .links .card .content label, .home .mens .cards .links .card .content label, .home .womens .cards .links .card .content label {
+    font-size: 1.3rem;
+  }
+  .home .logos img {
+    width: 65px;
+    height: 100px;
+  }
+  .home .logos .resize-brands img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .home {
+    top: 9%;
+  }
+  .home .head h1, .home .mens h1, .home .womens h1 {
+    font-size: 1.2rem;
+    margin-bottom: -1rem;
+  }
+  .home .head .cards, .home .mens .cards, .home .womens .cards {
+    margin-bottom: -1rem;
+    flex-wrap: wrap;
+    padding: 3px;
+    margin-bottom: 0.5rem;
+  }
+  .home .head .cards .links, .home .mens .cards .links, .home .womens .cards .links {
+    width: 24.6%;
+    height: 200px;
+    margin-bottom: 0.1rem;
+  }
+  .home .head .cards .links .card, .home .mens .cards .links .card, .home .womens .cards .links .card {
+    border-radius: 0.1rem;
+  }
+  .home .head .cards .links .card .image, .home .mens .cards .links .card .image, .home .womens .cards .links .card .image {
+    height: 60%;
+  }
+  .home .head .cards .links .card .content, .home .mens .cards .links .card .content, .home .womens .cards .links .card .content {
+    height: 40%;
+  }
+  .home .head .cards .links .card .content h2, .home .mens .cards .links .card .content h2, .home .womens .cards .links .card .content h2 {
+    font-size: 0.6rem;
+  }
+  .home .head .cards .links .card .content label, .home .mens .cards .links .card .content label, .home .womens .cards .links .card .content label {
+    font-size: 0.7rem;
+  }
+  .home .logos img {
+    width: 55px;
+    height: 100px;
+  }
+  .home .logos .resize-brands img {
+    width: 40px;
+    height: 40px;
+  }
+  .home h3 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home {
+    top: 9.5%;
+  }
+  .home .head .cards {
+    margin-top: 1.7rem;
+  }
+  .home .mens .cards, .home .womens .cards {
+    margin-top: 0;
+  }
+  .home .head, .home .mens, .home .womens {
+    padding: 8px;
+  }
+  .home .head h1, .home .mens h1, .home .womens h1 {
+    font-size: 0.9rem;
+    margin-bottom: -1rem;
+  }
+  .home .head .cards, .home .mens .cards, .home .womens .cards {
+    margin-bottom: 0.71rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .home .head .cards .links, .home .mens .cards .links, .home .womens .cards .links {
+    width: 50%;
+    height: 180px;
+    margin-bottom: 0.8rem;
+    margin: 0px;
+    margin-bottom: 3px;
+    border-radius: 0;
+  }
+  .home .head .cards .links .card, .home .mens .cards .links .card, .home .womens .cards .links .card {
+    border-radius: 0rem;
+  }
+  .home .head .cards .links .card .image, .home .mens .cards .links .card .image, .home .womens .cards .links .card .image {
+    height: 60%;
+  }
+  .home .head .cards .links .card .content, .home .mens .cards .links .card .content, .home .womens .cards .links .card .content {
+    height: 40%;
+  }
+  .home .head .cards .links .card .content h2, .home .mens .cards .links .card .content h2, .home .womens .cards .links .card .content h2 {
+    font-size: 0.6rem;
+    margin: 0;
+    padding: 0;
+  }
+  .home .head .cards .links .card .content label, .home .mens .cards .links .card .content label, .home .womens .cards .links .card .content label {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+  }
+  .home .logos {
+    width: 99.8%;
+    border: 1px solid black;
+  }
+  .home .logos img {
+    width: 50px;
+    height: 70px;
+    margin-right: 20px;
+  }
+  .home .logos .resize-brands {
+    visibility: hidden;
+  }
+  .home h3 {
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=HomeStyles.css.map */

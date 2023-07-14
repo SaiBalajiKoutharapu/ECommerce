@@ -1,0 +1,162 @@
+.cards-main{
+    width: 100%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(250deg, #e473f1, #bbec76, #dfb269,#276478, #74e66b, #e170a3, #ea6262, #9596d9, #d384a6,#50db88, #7476dc, #73abd9);
+            -webkit-animation: Rainbow 10s ease infinite;
+            -moz-animation: Rainbow 10s ease infinite;
+            animation: Rainbow 10s ease infinite;
+            @keyframes Rainbow {
+                0% {
+                    background-position: 94% 0%; }
+                50% {
+                    background-position: 7% 100%; }
+                100% {
+                    background-position: 94% 0%; } 
+            };
+    h1{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        text-transform: uppercase;
+        font-weight: 550;
+        color: rgb(11, 11, 111);
+    }
+       
+    .cards{
+        width:95%;
+        margin-top: 1.8rem;
+        margin-bottom: 1.5rem;
+        .links{
+            width:23%;
+            height: 100%;
+            text-decoration: none;
+            overflow: hidden;
+            .card{
+                width:100%;
+                height: 450px;
+                box-shadow: 2px 2px 12px rgb(153, 149, 149);
+                border: none;
+                margin-bottom: 1.5rem;
+                overflow: hidden;
+            
+                img{
+                    width: 100%;
+                    height: 330px;
+                }
+                i{
+                    font-size: 1.2rem;
+                    color: red;
+                    position: absolute;
+                    right: 4%;
+                    font-weight: 100;
+                    top: 2.5%;
+                }
+            }
+            .content{
+                background-color: white;
+                h2{
+                    font-size: .9rem;
+                    color:rgb(15, 15, 156);
+
+                }
+                h4{
+                    font-size: .9rem;
+                    color: black;
+                    font-weight: 400;
+                }
+                h5{
+                    font-size:.9rem;
+                    margin-top: 1rem;
+                }
+                
+            }
+            
+        }
+        .active{
+            display: none;
+        }
+        
+    }
+}
+
+@media screen and (max-width:550px){
+    .cards-main{
+        width: 100%;
+        .cards{
+            width:100%;
+            margin:.4rem;
+            
+            .links{
+                width:48.8%;
+                overflow: hidden;
+                .card{
+                    width:100%;
+                    height: 248px;
+                    padding: 2px;
+                    margin-top: 2px;
+                    margin-bottom: .4rem;
+                    border-radius: 0;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: 170px;
+                    }
+                    p{
+                        font-size: .6rem;
+                        padding: 1px;
+                        width:20%;
+                    }
+                    i{
+                        font-size: .7rem;
+                        color: red;
+                        position: absolute;
+                        right: 4%;
+                        font-weight: 100;
+                        top: 2.5%;
+                    }
+                    .bag{
+                        position: absolute;
+                        top:5%;
+                        right: 4%;
+                    }
+                    .addtocart{
+                        width: 100%;
+                        padding: 0;
+                        margin: 0;
+                        
+                        button{
+                            font-size: .6rem;
+                            padding: 3px;
+                            font-weight: 450;
+                            border: none;
+                            outline: none;
+                            width: 100%;
+                            background-color: rgb(30, 30, 31);
+                            color: white;
+                        }
+                    }
+                }
+                .content{
+                    h2{
+                        font-size: .5rem;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    h4{
+                        font-size: .6rem;
+                        margin-top: 3px;
+                       
+                    }
+                    h5{
+                        font-size:.5rem;
+                        color: green;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                    
+                }
+            }
+            
+        }
+    }
+}

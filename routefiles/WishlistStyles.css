@@ -1,0 +1,18 @@
+.wishlist {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  font-size: 0.9rem;
+  color: black;
+  padding: 10px;
+  border: 2px solid black;
+  border: 15px;
+}
+.wishlist .link {
+  width: 100%;
+}
+.wishlist .link button {
+  font-size: 0.8rem;
+  padding: 5px;
+  width: 100%;
+}/*# sourceMappingURL=WishlistStyles.css.map */

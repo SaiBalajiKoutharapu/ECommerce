@@ -1,0 +1,100 @@
+.shopping {
+  position: absolute;
+  top: 10.5%;
+  background: linear-gradient(250deg, #ecb9cf, #a5debc, #85aac9);
+  -webkit-animation: Rainbow 10s ease infinite;
+  -moz-animation: Rainbow 10s ease infinite;
+  animation: Rainbow 10s ease infinite;
+}
+@keyframes Rainbow {
+  0% {
+    background-position: 94% 0%;
+  }
+  50% {
+    background-position: 7% 100%;
+  }
+  100% {
+    background-position: 94% 0%;
+  }
+}
+.shopping .options {
+  width: 99%;
+}
+.shopping .options button {
+  width: 20%;
+  height: 40px;
+  font-size: 0.7rem;
+  padding: 3px;
+  outline: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.shopping .matter {
+  width: 100%;
+  height: 30vh;
+  padding-top: 3px;
+  display: none;
+}
+.shopping .active-matter {
+  display: block;
+}
+
+@media screen and (max-width: 500px) {
+  .shopping {
+    position: absolute;
+    top: 10.5%;
+    background: linear-gradient(250deg, #ecb9cf, #a5debc, #85aac9);
+    -webkit-animation: Rainbow 10s ease infinite;
+    -moz-animation: Rainbow 10s ease infinite;
+    animation: Rainbow 10s ease infinite;
+  }
+  @keyframes Rainbow {
+    0% {
+      background-position: 94% 0%;
+    }
+    50% {
+      background-position: 7% 100%;
+    }
+    100% {
+      background-position: 94% 0%;
+    }
+  }
+  .shopping .options {
+    width: 97%;
+  }
+  .shopping .options .btn {
+    width: 20%;
+    height: 25px;
+    font-size: 0.7rem;
+    padding: 3px;
+    outline: none;
+    border-radius: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: 0.5px solid rgb(144, 139, 139);
+  }
+  .shopping .options .active {
+    width: 20%;
+    height: 25px;
+    font-size: 0.7rem;
+    padding: 3px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    background-color: peru;
+    color: white;
+  }
+  .shopping .matter {
+    width: 100%;
+    height: 30vh;
+    padding-top: 3px;
+    display: none;
+  }
+  .shopping .active-matter {
+    display: block;
+  }
+}/*# sourceMappingURL=ShoppingStyles.css.map */

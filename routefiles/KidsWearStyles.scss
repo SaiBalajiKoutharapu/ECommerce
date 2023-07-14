@@ -1,0 +1,52 @@
+.kids-main{
+    height: auto;
+    position: absolute;
+    top:10%;
+    width: 100%;
+    .kids-page{
+        height: 70vh;
+       .head{
+        height: 100%;
+        img{
+            width: 50%;
+            height: 100%;
+        }
+       }
+    }
+}
+
+@media screen and (max-width:550px){
+    .kids-main{
+        height: auto;
+        position: absolute;
+        top:10%;
+        .kids-page{
+            height: 25vh;
+           .head{
+            height: 100%;
+            img{
+                width: 50%;
+                height: 100%;
+            }
+           }
+        }
+        h1{
+            font-size: .8rem;
+            margin: .7rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: rgb(12, 12, 82);
+            text-shadow: 1px 1px 5px rgb(175, 24, 24);
+        }
+        p{
+            font-size: .8rem;
+            text-transform: uppercase;
+            color:peru;
+            padding-bottom: .5rem;
+            border-bottom: 1px solid peru;
+            margin-bottom: .6rem;
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
